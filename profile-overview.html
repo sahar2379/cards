@@ -354,6 +354,23 @@ p {
   margin-left: 5px; /* Add space between icon and text */
 }
 
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px); /* Move up */
+  }
+  100% {
+      transform: translateY(0); /* Back to original position */
+  }
+}
+
+/* Apply animation to cards within #animated-cards container */
+#animated-cards .card {
+  animation: float 3s ease-in-out infinite; /* Infinite floating animation */
+}
+
 
      </style>
     <div class="container content-space-t-1 content-space-t-sm-2">
@@ -534,42 +551,43 @@ p {
 
                           به جزئیات اهمیت زیادی می‌دهم و با تعهد به ارائه راه‌حل‌های اقتصادی، سعی کرده‌ام پروژه‌های خود را به بهترین شکل ممکن به انجام برسانم. هدف من همیشه ارتقاء کیفیت و نوآوری در پروژه‌ها بوده و به این باور دارم که توسعه پایدار و استفاده هوشمندانه از منابع، کلید موفقیت در صنعت کشاورزی و گلخانه است.</p>
                     </div>
-                    <div class="mb-5 wow fadeIn">
-                        <div class="text-end mb-1-6 wow fadeIn">
-                            <h2 class="mb-0 text-primary">مهارت ها</h2>
-                        </div>
-                        <div class="row mt-n4">
+                    <div id="animated-cards" class="mb-5 wow fadeIn">
+                      <div class="text-end mb-1-6 wow fadeIn">
+                          <h2 class="mb-0 text-primary">مهارت ها</h2>
+                      </div>
+                      <div class="row mt-n4">
                           <div class="col-sm-6 col-xl-4 mt-4">
-                            <div class="card text-center rounded-3" style="border: 2px solid #D1913E;">
-                                <div class="card-body">
-                                    <i class="ti-bookmark-alt icon-box medium rounded-3 mb-4"></i>
-                                    <h3 class="h5 mb-3">تحصیلات</h3>
-                                    <p class="mb-0">فارغ التحصیل ارشد رشته کشاورزی از دانشگاه تهران</p>
+                         <div class="card text-center rounded-3" style="border: 2px solid #D1913E;">
+                                  <div class="card-body">
+                                      <i class="ti-bookmark-alt icon-box medium rounded-3 mb-4"></i>
+                                      <h3 class="h5 mb-3">تحصیلات</h3>
+                                      <p class="mb-0">فارغ التحصیل ارشد رشته کشاورزی از دانشگاه تهران</p>
+                                  </div>
                                 </div>
-                            </div>
-                        </div>
+                          </div>
 
-                        <div class="col-sm-6 col-xl-4 mt-4">
-                          <div class="card text-center rounded-3" style="border: 2px solid #135390;">
-                              <div class="card-body">
-                                  <i class="ti-pencil-alt icon-box medium rounded-3 mb-4"></i>
-                                  <h3 class="h5 mb-3">شروع کار</h3>
-                                  <p class="mb-0">از سال ۱۳۶۵ نظارت پروژه‌های گلخانه سازی در تهران</p>
+                          <div class="col-sm-6 col-xl-4 mt-4">
+                              <div class="card text-center rounded-3" style="border: 2px solid #135390;">
+                                  <div class="card-body">
+                                      <i class="ti-pencil-alt icon-box medium rounded-3 mb-4"></i>
+                                 <h3 class="h5 mb-3">شروع کار</h3>
+                                      <p class="mb-0">از سال ۱۳۶۵ نظارت پروژه‌های گلخانه سازی در تهران</p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="col-sm-6 col-xl-4 mt-4">
+                           <div class="card text-center rounded-3" style="border: 2px solid #A92420;">
+                                  <div class="card-body">
+                                      <i class="ti-medall-alt icon-box medium rounded-3 mb-4"></i>
+                                      <h3 class="h5 mb-3">مدارک و مهارت‌ها</h3>
+                                      <p class="mb-0">با کسب بیش از ۵ مدارک در مهارت نظارت گلخانه سازی</p>
+                                  </div>
                               </div>
                           </div>
                       </div>
+                  </div>
 
-                      <div class="col-sm-6 col-xl-4 mt-4">
-                          <div class="card text-center rounded-3" style="border: 2px solid #A92420;">
-                              <div class="card-body">
-                                  <i class="ti-medall-alt icon-box medium rounded-3 mb-4"></i>
-                                  <h3 class="h5 mb-3">مدارک و مهارت‌ها</h3>
-                                  <p class="mb-0">با کسب بیش از ۵ مدارک در مهارت نظارت گلخانه سازی</p>
-                              </div>
-                          </div>
-                      </div>
-                    </div>
-                    </div>
                     <div class="wow fadeIn">
                         <div class="text-end mb-1-6 wow fadeIn">
                             <h2 class="mb-0 text-primary">مدارک و مهارت ها</h2>
